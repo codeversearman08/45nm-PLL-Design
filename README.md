@@ -12,6 +12,6 @@ Cadence Virtuoso design and simulation of a charge-pump PLL in 45nm CMOS.
 ### AI Optimization & Co-Simulation Workflow
 The flowchart below details the Multi-Objective Particle Swarm Optimization (MOPSO) pipeline developed to automate design space exploration. Python generates parameterized netlists, Cadence Spectre executes the transistor-level simulations, and the algorithm optimizes for lock time, phase noise, and power.
 
-![MOPSO Co-Simulation Workflow](MOPSO_Optimization_Flowchart.jpg.jpg)
+![MOPSO Co-Simulation Workflow](MOPSO_Optimization_Flowchart.jpg.jpeg)
 
 *Note: Full block-level schematics (PFD, Charge Pump, Current-Starved VCO, Divider) and Spectre transient response plots are available in the repository files above.*
